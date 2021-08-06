@@ -1,4 +1,4 @@
-# Promise Interview Examples - A New Way to Learn.
+# Promise Interview Ready - A New Way to Learn.
 
 Please join me to learn JavaScript Promise in a new way. This repository contains all the source code and examples used in the [Demystifying JavaScript Promise Series](https://blog.greenroots.info/series/javascript-promises). It will help a beginner with many examples to understand the promises and get ready for the interview questions.
 
