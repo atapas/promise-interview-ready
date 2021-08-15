@@ -126,7 +126,7 @@ async function orderPizza(type, name) {
             });
         console.log(result.message);
     } catch(error){
-        console.error(`${error.message}`);
+        console.error(error.message);
     };
 }
 

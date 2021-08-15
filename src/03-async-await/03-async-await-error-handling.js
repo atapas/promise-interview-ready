@@ -1,4 +1,4 @@
-const validateUser = async ({userId, password}) => {
+const validateUser = ({userId, password}) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             if (userId && password) {
