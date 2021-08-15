@@ -43,11 +43,16 @@ const selectValue = () => {
     }
 };
 
+const setValues = (color, value, duration) => {
+    document.getElementById(`${color}-id`).innerHTML = value;
+    document.getElementById(`${color}-id`).setAttribute('class', value);
+    document.getElementById(`${color}-id`).style.animationName = value;
+    document.getElementById(`${color}-id`).style.animationDuration = duration;
+}
+
 const clear = () => {
     colors.forEach(color => {
-        document.getElementById(`${color}-id`).innerHTML = '';
-        document.getElementById(`${color}-id`).setAttribute('class', '');
-        document.getElementById(`${color}-id`).style.animationName = '';
+        setValues(color, '', '0s');
     });
 }
 
@@ -55,10 +60,7 @@ const handleAll = () => {
    Promise.all([red, green, blue]).then(colors => {
     console.log(colors);
     colors.forEach(color => {
-        document.getElementById(`${color}-id`).innerHTML = color;
-        document.getElementById(`${color}-id`).setAttribute('class', color);
-        document.getElementById(`${color}-id`).style.animationName = color;
-        document.getElementById(`${color}-id`).style.animationDuration = '3s';
+        setValues(color, color, '3s');
     })
     }).catch(err => {
         console.log(err);
@@ -68,10 +70,7 @@ const handleAll = () => {
 const handleAny = () => {
     Promise.any([red, green, blue]).then(color => {
         console.log(color);
-        document.getElementById(`${color}-id`).innerHTML = color;
-        document.getElementById(`${color}-id`).setAttribute('class', color);
-        document.getElementById(`${color}-id`).style.animationName = color;
-        document.getElementById(`${color}-id`).style.animationDuration = '3s';
+        setValues(color, color, '3s');
     }).catch(err => {
         console.log(err);
     });
@@ -80,10 +79,7 @@ const handleAny = () => {
 const handleRace = () => {
     Promise.race([ green, red, blue]).then(color => {
         console.log(color);
-        document.getElementById(`${color}-id`).innerHTML = color;
-        document.getElementById(`${color}-id`).setAttribute('class', color);
-        document.getElementById(`${color}-id`).style.animationName = color;
-        document.getElementById(`${color}-id`).style.animationDuration = '3s';
+        setValues(color, color, '3s');
     }).catch(err => {
         console.log(err);
     });
@@ -96,10 +92,7 @@ const handleAllSettled = () => {
             if (status === 'rejected') {
                 console.log(color.reason);
             } else if (status === 'fulfilled') {
-                document.getElementById(`${value}-id`).innerHTML = value;
-                document.getElementById(`${value}-id`).setAttribute('class', value);
-                document.getElementById(`${value}-id`).style.animationName = value;
-                document.getElementById(`${value}-id`).style.animationDuration = '3s';
+                setValues(value, value, '3s');
             }
         }
     }).catch(err => {

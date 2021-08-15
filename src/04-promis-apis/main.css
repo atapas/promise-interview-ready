@@ -1,0 +1,57 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    margin: 0;
+    background-color: #000;
+    color: #FFF;
+    z-index: 1000;
+    padding: .5rem 1rem;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+}
+
+.red {
+    background-color: #f00;
+    color: #000;
+}
+.green {
+    background-color: #0f0;
+    color: #000;
+}
+
+.blue {
+    background-color: #00f;
+    color: #FFF;
+}
+
+.colors div {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+@keyframes red {
+    from {background-color: #f7f6f6; color: black;}
+    to {background-color: #f00; color: black;}
+}
+
+@keyframes green {
+    from {background-color: #f7f6f6; color: black;}
+    to {background-color: #0f0; color: black;}
+}
+
+@keyframes blue {
+    from {background-color: #f7f6f6; color: black;}
+    to {background-color: #00f; color: white;}
+}

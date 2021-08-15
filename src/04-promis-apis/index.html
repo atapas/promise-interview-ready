@@ -4,64 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .red {
-            background-color: #f00;
-            color: #000;
-        }
-        .green {
-            background-color: #0f0;
-            color: #000;
-        }
-
-        .blue {
-            background-color: #00f;
-            color: #FFF;
-        }
-
-        div {
-            background-color: #f7f6f6;
-            padding: 20px;
-            margin: 10px;
-            border-radius: 5px;
-            box-shadow: 5px 5px 5px #ccc;
-        }
-
-        @keyframes red {
-            from {background-color: #f7f6f6; color: black;}
-            to {background-color: #f00; color: black;}
-        }
-
-        @keyframes green {
-            from {background-color: #f7f6f6; color: black;}
-            to {background-color: #0f0; color: black;}
-        }
-
-        @keyframes blue {
-            from {background-color: #f7f6f6; color: black;}
-            to {background-color: #00f; color: white;}
-        }
-    </style>
-    </style>
-    
+    <link rel="stylesheet" href="main.css">
     <title>Promise API Demo</title>
 </head>
 <body>
-    <h1>Promise API Demo</h1>
+    <main>
+        <header>
+            <h1>Promise API Demo</h1>
+        </header>
 
-    <label for="apis">Choose a Promise API:</label>
+        <section>
+            <label for="apis">Choose a Promise API:</label>
 
-    <select name="apis" id="apis-list-id" onchange="selectValue()">
-        <option value="select">---SELECT---</option>
-        <option value="all">Promise.all</option>
-        <option value="any">Promise.any</option>
-        <option value="race">Promise.race</option>
-        <option value="allSettled">Promise.allSettled</option>
-    </select>
+            <select name="apis" id="apis-list-id" onchange="selectValue()">
+                <option value="select">---SELECT---</option>
+                <option value="all">Promise.all</option>
+                <option value="any">Promise.any</option>
+                <option value="race">Promise.race</option>
+                <option value="allSettled">Promise.allSettled</option>
+            </select>
+        </section>
 
-    <div id="red-id"></div>
-    <div id="green-id"></div>
-    <div id="blue-id"></div>
+        <div class="colors">
+            <div id="red-id"></div>
+            <div id="green-id"></div>
+            <div id="blue-id"></div>
+        </div>
+    </main>
 
     <script src="./04-promise-apis.js"></script>
 </body>
