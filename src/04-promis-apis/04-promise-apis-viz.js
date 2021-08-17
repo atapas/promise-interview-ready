@@ -66,7 +66,7 @@ const selectValue = () => {
 
 const setValues = (color, value, duration) => {
     document.getElementById(`${color}-id`).innerHTML = value;
-    document.getElementById(`${color}-id`).setAttribute('class', value);
+    document.getElementById(`${color}-id`).parentElement.setAttribute('class', value);
     document.getElementById(`${color}-id`).style.animationName = value;
     document.getElementById(`${color}-id`).style.animationDuration = duration;
 }
