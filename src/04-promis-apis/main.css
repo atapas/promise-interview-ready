@@ -2,7 +2,10 @@ body, html {
     padding: 0;
     margin: 0;
     font-size: 16px;
-    line-height: 1.6;
+}
+
+select {
+    height: 25px;
 }
 
 header {
@@ -12,17 +15,60 @@ header {
     background-color: #000;
     color: #FFF;
     z-index: 1000;
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
 }
 
 header h1 {
     display: flex;
     align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 5rem 0 5rem;
+}
+
+.config {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    font-size: 18px;
+    margin: 0.5rem;
+    background-color: #ececec;
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+.config H2 {
+    margin: 2px;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.config section {
+    padding: 0.5rem;
+}
+
+.config section.select-api {
+    margin-bottom: 1rem;
+}
+
+.config section.delay, .config section.reject {
+    background-color: #c7c1c1;
+}
+
+.capsule {
+    padding: 3px;
+    border-radius: 5px;
 }
 
 .red {
     background-color: #f00;
-    color: #000;
+    color: #fff;
 }
 .green {
     background-color: #0f0;
@@ -34,11 +80,26 @@ header h1 {
     color: #FFF;
 }
 
+.colors {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .colors div {
     padding: 20px;
     margin: 10px;
+    border: 1px solid #ebebeb;
     border-radius: 5px;
     box-shadow: 5px 5px 5px #ccc;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: monospace;
+    text-transform: uppercase;
 }
 
 @keyframes red {
@@ -54,4 +115,49 @@ header h1 {
 @keyframes blue {
     from {background-color: #f7f6f6; color: black;}
     to {background-color: #00f; color: white;}
+}
+
+.logs {
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #ccc;
+    background-color: black;
+    background-image: radial-gradient(
+        rgba(0, 150, 0, 0.75), black 120%
+    );
+    color: white;
+    font: 1.3rem Inconsolata, monospace;
+    text-shadow: 0 0 5px #C8C8C8;
+    width: 100%;
+    border: 10px solid orange;
+}
+
+::selection {
+    background: #ff6600;
+    text-shadow: none;
+}
+
+.logs H2 {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.logs UL {
+    height: 375px;
+    overflow-y: auto;
+}
+
+.logs UL LI {
+    list-style: none;
+}
+
+.logs UL LI.error {
+    color: red;
+}
+
+.logs .close {
+    float: right;
+    cursor: pointer;
 }

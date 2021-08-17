@@ -5,33 +5,106 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Promise API Demo</title>
+    <title>PromiViz</title>
 </head>
 <body>
     <main>
         <header>
-            <h1>Promise API Demo</h1>
+            <h1>PromiViz - Promise APIs Demo</h1>
         </header>
 
-        <section>
-            <label for="apis">Choose a Promise API:</label>
+        <div class="content">
+            <div class="config">
+                <section class="select-api">
+                    <label for="apis-list-id">Select an API:</label>
 
-            <select name="apis" id="apis-list-id" onchange="selectValue()">
-                <option value="select">---SELECT---</option>
-                <option value="all">Promise.all</option>
-                <option value="any">Promise.any</option>
-                <option value="race">Promise.race</option>
-                <option value="allSettled">Promise.allSettled</option>
-            </select>
-        </section>
+                    <select name="apis" id="apis-list-id" onchange="selectValue()">
+                        <option value="select">---SELECT---</option>
+                        <option value="all">Promise.all</option>
+                        <option value="any">Promise.any</option>
+                        <option value="race">Promise.race</option>
+                        <option value="allSettled">Promise.allSettled</option>
+                    </select>
 
-        <div class="colors">
-            <div id="red-id"></div>
-            <div id="green-id"></div>
-            <div id="blue-id"></div>
+                </section>
+                <section class="delay">
+                    <span>Delay</span>
+                    <label for="red-delays-id"><span class="red capsule">Red</span> by</label>
+                    <select name="red-delays" id="red-delays-id" onchange="selectDelay()">
+                        <option value="1000">1 sec</option>
+                        <option value="2000">2 secs</option>
+                        <option value="3000" selected>3 secs</option>
+                        <option value="4000">4 secs</option>
+                        <option value="5000">5 secs</option>
+                        <option value="6000">6 secs</option>
+                        <option value="7000">7 secs</option>
+                        <option value="8000">8 secs</option>
+                        <option value="9000">9 secs</option>
+                        <option value="10000">10 secs</option>
+                    </select>
+                        |
+                    <label for="green-delays-id"><span class="green capsule">Green</span> by</label>
+                    <select name="green-delays" id="green-delays-id" onchange="selectDelay()">
+                        <option value="1000">1 sec</option>
+                        <option value="2000" selected>2 secs</option>
+                        <option value="3000">3 secs</option>
+                        <option value="4000">4 secs</option>
+                        <option value="5000">5 secs</option>
+                        <option value="6000">6 secs</option>
+                        <option value="7000">7 secs</option>
+                        <option value="8000">8 secs</option>
+                        <option value="9000">9 secs</option>
+                        <option value="10000">10 secs</option>
+                    </select>
+                        |
+                    <label for="blue-delays-id"><span class="blue capsule">Blue</span> by</label>
+                    <select name="blue-delays" id="blue-delays-id" onchange="selectDelay()">
+                        <option value="1000" >1 sec</option>
+                        <option value="2000">2 secs</option>
+                        <option value="3000">3 secs</option>
+                        <option value="4000">4 secs</option>
+                        <option value="5000">5 secs</option>
+                        <option value="6000">6 secs</option>
+                        <option value="7000" selected>7 secs</option>
+                        <option value="8000">8 secs</option>
+                        <option value="9000">9 secs</option>
+                        <option value="10000">10 secs</option>
+                    </select>
+                </section>
+
+                <section class="reject">
+                    <span>Reject</span>
+                    <label for="red-error-id">
+                        <span class="red capsule">Red</span> ?
+                        <input type="checkbox" id="red-error-id" onclick="rejectColor('red-error-id')" />
+                    </label>
+                        |
+                    <label for="green-error-id">
+                        <span class="green capsule">Green</span> ?
+                        <input type="checkbox" id="green-error-id" onclick="rejectColor('green-error-id')" />
+                    </label>
+                        |
+                    <label for="blue-error-id">
+                        <span class="blue capsule">Blue</span> ?
+                        <input type="checkbox" id="blue-error-id" onclick="rejectColor('blue-error-id')" />
+                    </label>
+                </section>
+            </div>
+
+            <div class="colors">
+                <div id="red-id"></div>
+                <div id="green-id"></div>
+                <div id="blue-id"></div>
+            </div>
+
+            <div id="log-container" class="logs">
+                <h2>Logs</h2>
+                <span class="close" title="Clear Logs" onclick="clearLogs()">X</span>
+                <ul id='log-id'></ul>
+            </div>
         </div>
     </main>
 
-    <script src="./04-promise-apis.js"></script>
+    <script src="./04-promise-apis-viz.js"></script>
 </body>
 </html>
