@@ -223,7 +223,7 @@ const handleAllSettled = async () => {
 
 const handleResolve = async () => {
     try {
-        log(`🕛 Resolving all colors individually with Promise.Resolve(color => red, green, blue)`); 
+        log(`🕛 Resolving all colors individually with Promise.resolve(color => red, green, blue)`); 
         const red = new Promise((resolve, reject) => {
             setTimeout(() => {
                 rejectRed ? reject('red') : resolve('red');
