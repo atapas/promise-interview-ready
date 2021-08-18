@@ -45,16 +45,16 @@ header h1 {
 }
 
 .red {
-    background-color: #f00;
+    background-color: #f43f3f;
     color: #fff;
 }
 .green {
-    background-color: #0f0;
+    background-color: #4fff4f;
     color: #000;
 }
 
 .blue {
-    background-color: #00f;
+    background-color: #5c5ce6;
     color: #FFF;
 }
 
@@ -82,17 +82,22 @@ header h1 {
 
 @keyframes red {
     from {background-color: #f7f6f6; color: black;}
-    to {background-color: #f00; color: #FFF;}
+    to {background-color: #f43f3f; color: #FFF;}
 }
 
 @keyframes green {
     from {background-color: #f7f6f6; color: black;}
-    to {background-color: #0f0; color: black;}
+    to {background-color: #4fff4f; color: black;}
 }
 
 @keyframes blue {
     from {background-color: #f7f6f6; color: black;}
-    to {background-color: #00f; color: white;}
+    to {background-color: #5c5ce6; color: white;}
+}
+
+.log-header {
+    display: flex;
+    justify-content: space-between;
 }
 
 .logs {
@@ -101,14 +106,75 @@ header h1 {
     border-radius: 5px;
     box-shadow: 5px 5px 5px #ccc;
     background-color: black;
-    background-image: radial-gradient(
-        rgba(0, 150, 0, 0.75), black 120%
-    );
     color: white;
     font: 1.3rem Inconsolata, monospace;
     text-shadow: 0 0 5px #C8C8C8;
     width: 100%;
     border: 10px solid orange;
+}
+
+.logs.green {
+    background-image: radial-gradient(
+        rgba(0, 150, 0, 0.75), black 120%
+    );
+}
+
+.logs.purple {
+    background-image: radial-gradient(
+        rgb(150 0 117 / 75%), black 120%
+    )
+}
+
+.logs.red {
+    background-image: radial-gradient( #f00, black 120% );
+}
+
+.logs.blue {
+    background-image: radial-gradient(
+        #00c2ff, black 120%
+    )
+}
+
+.logs.black {
+    background-image: radial-gradient(
+        #000, black 120%
+    )
+}
+
+.log-settings {
+    display: flex;
+    align-items: center;
+}
+
+.log-settings .log-theme {
+    display: flex;
+    list-style: none;
+}
+
+.log-settings .log-theme LI {   
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.log-settings LI.black {
+    background-color: #575151;
+}
+.log-settings LI.purple {
+    background-color: #bd24bd;
+}
+.log-settings LI.blue {
+    background-color: #6464ee;
+}
+.log-settings LI.green {
+    background-color: #13b313;
+}
+
+.log-settings LI.red {
+    background-color: #f94747;
 }
 
 ::selection {
@@ -122,22 +188,21 @@ header h1 {
     display: inline;
 }
 
-.logs UL {
-    height: 375px;
+.logs UL#log-id {
+    height: 335px;
     overflow-y: auto;
 }
 
-.logs UL LI {
+.logs UL#log-id LI {
     list-style: none;
     padding: 0.2rem;
 }
 
-.logs UL LI.error {
+.logs UL#log-id LI.error {
     color: red;
 }
 
 .logs .close {
-    float: right;
     cursor: pointer;
 }
 
@@ -162,7 +227,13 @@ header h1 {
 }
 
 @media screen and (min-width: 1800px) {
-    .logs UL {
-        height: 600px;
+    .logs UL#log-id {
+        height: 560px;
     }
+}
+
+footer {
+    margin: 0 auto;
+    padding: 0.5rem;
+    font-size: 1rem;
 }

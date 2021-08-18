@@ -20,11 +20,11 @@
 
                     <select name="apis" id="apis-list-id" onchange="selectValue()">
                         <option value="select">---SELECT---</option>
+                        <option value="handleResolve">Promise.resolve</option>
                         <option value="all">Promise.all</option>
                         <option value="any">Promise.any</option>
                         <option value="race">Promise.race</option>
                         <option value="allSettled">Promise.allSettled</option>
-                        <option value="handleResolve">Promise.resolve</option>
                     </select>
                 </section>
             </div>
@@ -34,9 +34,9 @@
                     <p class="actions">
                         <label for="red-delays-id">Delay</label>
                         <select name="red-delays" id="red-delays-id" onchange="selectDelay()">
-                            <option value="1000">1 sec</option>
+                            <option value="1000" selected>1 sec</option>
                             <option value="2000">2 secs</option>
-                            <option value="3000" selected>3 secs</option>
+                            <option value="3000">3 secs</option>
                             <option value="4000">4 secs</option>
                             <option value="5000">5 secs</option>
                             <option value="6000">6 secs</option>
@@ -58,8 +58,8 @@
                         <label for="green-delays-id">Delay</label>
                         <select name="green-delays" id="green-delays-id" onchange="selectDelay()">
                             <option value="1000">1 sec</option>
-                            <option value="2000" selected>2 secs</option>
-                            <option value="3000">3 secs</option>
+                            <option value="2000">2 secs</option>
+                            <option value="3000" selected>3 secs</option>
                             <option value="4000">4 secs</option>
                             <option value="5000">5 secs</option>
                             <option value="6000">6 secs</option>
@@ -83,8 +83,8 @@
                             <option value="1000">1 sec</option>
                             <option value="2000">2 secs</option>
                             <option value="3000">3 secs</option>
-                            <option value="4000" selected>4 secs</option>
-                            <option value="5000">5 secs</option>
+                            <option value="4000">4 secs</option>
+                            <option value="5000" selected>5 secs</option>
                             <option value="6000">6 secs</option>
                             <option value="7000">7 secs</option>
                             <option value="8000">8 secs</option>
@@ -101,11 +101,32 @@
                 </div>
             </div>
 
-            <div id="log-container" class="logs">
-                <h2>Logs</h2>
-                <span class="close" title="Clear Logs" onclick="clearLogs()">X</span>
+            <div id="log-container" class="logs blue">
+                <div class="log-header">
+                    <h2>Logs</h2>
+                    <div class="log-settings">
+                        <ui class="log-theme">
+                            <li title="Set the black theme" class="black" onclick="setTheme('black')"></li>
+                            <li title="Set the blue theme" class="blue" onclick="setTheme('blue')"></li>
+                            <li title="Set the red theme" class="red" onclick="setTheme('red')"></li>
+                            <li title="Set the purple theme" class="purple" onclick="setTheme('purple')"></li>
+                            <li title="Set the green theme" class="green" onclick="setTheme('green')"></li>
+                        </ui>
+                        <span class="close" title="Clear Logs" onclick="clearLogs()">X</span>
+                    </div>
+                    
+                </div>
                 <ul id='log-id'></ul>
             </div>
+            <footer>
+                Made with ❤️ by 
+                <a 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    href="https://twitter.com/tapasadhikary">
+                    Tapas Adhikary(@tapasadhikary)
+                </a>
+            </footer>
         </div>
     </main>
 

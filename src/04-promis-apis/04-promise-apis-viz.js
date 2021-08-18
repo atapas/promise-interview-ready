@@ -106,6 +106,13 @@ const log = (msg, isError) => {
     logElem.appendChild(logListElem);
 }
 
+const setTheme = (theme) => {
+    const logElem = document.getElementById('log-container');
+    const itemToRemove = logElem.classList.item(1);
+    logElem.classList.remove(itemToRemove);
+    logElem.classList.add(theme);
+}
+
 // Handle the Promise.all() API
 const handleAll = async () => {
     try {
