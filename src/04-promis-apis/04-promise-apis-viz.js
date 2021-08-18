@@ -59,6 +59,9 @@ const selectValue = () => {
         case 'allSettled':
             handleAllSettled();
             break;
+        case 'handleResolve':
+            handleResolve();
+            break
         default:
             break;
     }
@@ -213,6 +216,43 @@ const handleAllSettled = async () => {
             }
         }
         log(`✔️ Finished settling of the colors using Promise.allSettled([red, green, blue])`); 
+    }catch(err) {
+        log(`❌ Rejected the color ${err}.`, true);
+    };
+};
+
+const handleResolve = async () => {
+    try {
+        log(`🕛 Resolving all colors individually with Promise.Resolve(color => red, green, blue)`); 
+        const red = new Promise((resolve, reject) => {
+            setTimeout(() => {
+                rejectRed ? reject('red') : resolve('red');
+            }, redDelay);
+        });
+        
+        const green = new Promise((resolve, reject) => {
+            setTimeout(() => {
+                rejectGreen ? reject('green') : resolve('green');
+            }, greenDelay);
+        });
+        
+        const blue = new Promise((resolve, reject) => {
+            setTimeout(() => {
+                rejectBlue ? reject('blue') : resolve('blue');
+            }, blueDelay);
+        });
+
+        const redResolved = await Promise.resolve(red);
+        log(`✔️ Finished resolving ${redResolved} using Promise.resolve(${redResolved})`); 
+        setValues(redResolved, redResolved, '3s');
+        
+        const greenResolved = await Promise.resolve(green);
+        log(`✔️ Finished resolving ${greenResolved} using Promise.resolve(${greenResolved})`); 
+        setValues(greenResolved, greenResolved, '3s');
+
+        const blueResolved = await Promise.resolve(blue);
+        log(`✔️ Finished resolving ${blueResolved} using Promise.resolve(${blueResolved})`); 
+        setValues(blueResolved, blueResolved, '3s');
     }catch(err) {
         log(`❌ Rejected the color ${err}.`, true);
     };

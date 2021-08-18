@@ -129,6 +129,7 @@ header h1 {
 
 .logs UL LI {
     list-style: none;
+    padding: 0.2rem;
 }
 
 .logs UL LI.error {
@@ -158,4 +159,10 @@ header h1 {
    .colors div {
        width: auto;
    }
+}
+
+@media screen and (min-width: 1800px) {
+    .logs UL {
+        height: 600px;
+    }
 }
