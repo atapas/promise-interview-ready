@@ -139,3 +139,23 @@ header h1 {
     float: right;
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 660px) {
+   .content {
+        margin: 1.5rem
+   }
+
+   .config {
+       width: 100%;
+   }
+
+   .colors {
+       width: 100%;
+       display: block;
+   }
+
+   .colors div {
+       width: auto;
+   }
+}
