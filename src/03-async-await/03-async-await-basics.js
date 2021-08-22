@@ -1,5 +1,5 @@
 
-export const getTimeClock = () => {
+const getTimeClock = () => {
     return new Date().getHours() 
     + ":" 
     + new Date().getMinutes() 
