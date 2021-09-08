@@ -11,3 +11,9 @@ Please join me to learn JavaScript Promise in a new way. This repository contain
 - [Async/Await](https://github.com/atapas/promise-interview-ready/tree/main/src/03-async-await)
 - [Promise API Methods](https://github.com/atapas/promise-interview-ready/tree/main/src/04-promis-apis)
 
+## Learn
+- [JavaScript Promises - Explain Like I'm Five](https://blog.greenroots.info/javascript-promises-explain-like-i-am-five)
+- [JavaScript Promise Chain - The art of handling promises](https://blog.greenroots.info/javascript-promise-chain-the-art-of-handling-promises)
+- [JavaScript async and await - in plain English, please](https://blog.greenroots.info/javascript-async-and-await-in-plain-english-please)
+- [Introducing PromiViz - visualize and learn JavaScript promise APIs](https://blog.greenroots.info/introducing-promiviz-visualize-and-learn-javascript-promise-apis)
+
