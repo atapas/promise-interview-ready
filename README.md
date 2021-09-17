@@ -9,7 +9,6 @@ Please join me to learn JavaScript Promise in a new way. This repository contain
 [![Stargazers repo roster for @atapas/promise-interview-ready](https://reporoster.com/stars/atapas/promise-interview-ready)](https://github.com/atapas/promise-interview-ready/stargazers)
 
 ## Content
-- [Synchronous vs Asynchronous JavaScript](https://www.freecodecamp.org/news/synchronous-vs-asynchronous-in-javascript)
 - [JS Sync Async](https://github.com/atapas/demystifying-javaScript-promise/tree/main/src/js-sync-async)
 - [Promise Basics](https://github.com/atapas/demystifying-javaScript-promise/tree/main/src/01-promise-basics)
 - [Promise Chaining](https://github.com/atapas/demystifying-javaScript-promise/tree/main/src/02-promise-chain)
@@ -18,6 +17,7 @@ Please join me to learn JavaScript Promise in a new way. This repository contain
 - [QUIZZES - Practice and Fun](https://github.com/atapas/promise-interview-ready/tree/main/src/tasks/readme.md)
 
 ## Learn
+- [Synchronous vs Asynchronous JavaScript](https://www.freecodecamp.org/news/synchronous-vs-asynchronous-in-javascript)
 - [JavaScript Promises - Explain Like I'm Five](https://blog.greenroots.info/javascript-promises-explain-like-i-am-five)
 - [JavaScript Promise Chain - The art of handling promises](https://blog.greenroots.info/javascript-promise-chain-the-art-of-handling-promises)
 - [JavaScript async and await - in plain English, please](https://blog.greenroots.info/javascript-async-and-await-in-plain-english-please)
