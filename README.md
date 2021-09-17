@@ -4,6 +4,10 @@ Please join me to learn JavaScript Promise in a new way. This repository contain
 
 > 🏗️ This repo is Work In Progress at this time. We appreciate you follow, use, and contribute to it. Liked the work so far? Please give it a star(⭐)
 
+# Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
+
+[![Stargazers repo roster for @atapas/promise-interview-ready](https://reporoster.com/stars/atapas/promise-interview-ready)](https://github.com/atapas/promise-interview-ready/stargazers)
+
 ## Content
 - [JS Sync Async](https://github.com/atapas/demystifying-javaScript-promise/tree/main/src/js-sync-async)
 - [Promise Basics](https://github.com/atapas/demystifying-javaScript-promise/tree/main/src/01-promise-basics)
