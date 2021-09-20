@@ -23,4 +23,5 @@ Please join me to learn JavaScript Promise in a new way. This repository contain
 - [JavaScript Promise Chain - The art of handling promises](https://blog.greenroots.info/javascript-promise-chain-the-art-of-handling-promises)
 - [JavaScript async and await - in plain English, please](https://blog.greenroots.info/javascript-async-and-await-in-plain-english-please)
 - [Introducing PromiViz - visualize and learn JavaScript promise APIs](https://blog.greenroots.info/introducing-promiviz-visualize-and-learn-javascript-promise-apis)
+- [6 Common mistakes in using JavaScript Promises](https://blog.greenroots.info/common-mistakes-in-using-javascript-promises)
 
