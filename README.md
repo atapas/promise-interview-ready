@@ -14,6 +14,7 @@ Please join me to learn JavaScript Promise in a new way. This repository contain
 - [Promise Chaining](https://github.com/atapas/demystifying-javaScript-promise/tree/main/src/02-promise-chain)
 - [Async/Await](https://github.com/atapas/promise-interview-ready/tree/main/src/03-async-await)
 - [Promise API Methods](https://github.com/atapas/promise-interview-ready/tree/main/src/04-promis-apis)
+- [Common Mistake](https://github.com/atapas/promise-interview-ready/tree/main/src/common-mistakes)
 - [QUIZZES - Practice and Fun](https://github.com/atapas/promise-interview-ready/tree/main/src/tasks/readme.md)
 
 ## Learn
