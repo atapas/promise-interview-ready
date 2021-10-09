@@ -21,7 +21,7 @@ Any positive contributions are welcome. Please refer the  [Contribution Guide](h
 ## QUIZZES
 Let's get started.
 
-### 1. What's the output of this code?
+### [1. What's the output of this code?](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#1-whats-the-output-of-this-code)
 
 ```js
 function f1() {
@@ -51,7 +51,7 @@ Explanation:
 
 
 
-### 2. Which statements are `true`? Select multiple.
+### [2. Which statements are `true`? Select multiple.](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#2-which-statements-are-true-select-multiple)
 - [x] JavaScript is single-threaded
 - [ ] By default, JavaScript is synchronous
 - [ ] Only promises make JavaScript asynchronous
@@ -105,7 +105,7 @@ Explanation:
 - f2() too goes back into the stack after timeout, and gets executed
 
 
-### 3. Which statement is `true`? Select Only one.
+### [3. Which statement is `true`? Select Only one.](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#3-which-statement-is-true-select-only-one)
 - (_) JavaScript Function Execution Stack(Call Stack) never gets empty.
 - (x) The job queue gets higher priority than the callback queue.
 - (_) The only job of Event Loop is to manage the Call Stack
@@ -116,7 +116,7 @@ Answer: **The job queue gets higher priority than the callback queue.**
 Explanation: The Job Queue also known as micro task and has higher priority of execution than Callback queue in event loop
 
 
-### 4. Guess the output
+### [4. Guess the output](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#4-guess-the-output)
 
 ```js
 const tom = () => console.log('Tom');
@@ -154,7 +154,7 @@ Explanation:
 - After promise, event loop finds tom() in callback queue, moves it to execution stack & executes it
 
 
-### 5. Guess the output
+### [5. Guess the output](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#5-guess-the-output)
 
 ```js
 const tom = () => console.log('Tom');
@@ -200,7 +200,7 @@ Explanation:
 - Now tom() completes its timeout and is moved to execution stack and is executed
 
 
-### 6. Guess the output
+### [6. Guess the output](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#6-guess-the-output)
 
 ```js
 const f1 = () => console.log('f1');
@@ -249,7 +249,7 @@ Explanation:
 - f1() gets executed, f3() follows f1() to execution stack and is executed
 - Now f2() completes its timeout and is moved for execution in execution stack
 
-### 7. Guess the output
+### [7. Guess the output](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#7-guess-the-output)
 
 ```js
 const f1 = () => console.log('f1');
