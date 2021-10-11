@@ -11,7 +11,7 @@ Explanation:
 
 
 
-## [2. Which statements are `true`? Select multiple.](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#2-which-statements-are-true-select-multiple)
+## 2. [Which statements are `true`? Select multiple.](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#2-which-statements-are-true-select-multiple)
 
 Answer: **Let's do it!, f4, f1, f3, f2**
 
@@ -20,14 +20,14 @@ Explanation:
 - f1() calls browser API, so gets added to Callback Queue
 - f4() gets added to Execution Stack and is executed
 - Event loop finds a callback function f1() in callback queue & executes it
-- f2() calls browser API and gets added to Callback Queue. Simialry f3() is addded to callback queue
+- f2() calls browser API and gets added to Callback Queue. Similarly f3() is added to callback queue
 - Now there is nothing in Execution Stack, so event loop checks & finds f2() & f3() callback functions in callback queue
 - f3() goes back into the stack after timeout, and gets executed
 - f2() too goes back into the stack after timeout, and gets executed
 
 
 
-## [3. Which statement is `true`? Select Only one.](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#3-which-statement-is-true-select-only-one)
+## 3. [Which statement is `true`? Select Only one.](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#3-which-statement-is-true-select-only-one)
 
 Answer: **The job queue gets higher priority than the callback queue.**
 
@@ -35,7 +35,7 @@ Explanation: The Job Queue also known as micro task and has higher priority of e
 
 
 
-## [4. Guess the output](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#4-guess-the-output)
+## 4. [Guess the output](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#4-guess-the-output)
 
 Answer: **Cartoon, Jerry, should it be right after Tom, before Jerry?, tom**
 
@@ -49,7 +49,7 @@ Explanation:
 
 
 
-## [5. Guess the output](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#5-guess-the-output)
+## 5. [Guess the output](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#5-guess-the-output)
 
 Answer: **Cartoon, Jerry, I am a Promise, right after tom and doggy! Really?, I am a Promise after Promise!, Doggy, Tom**
 
@@ -66,7 +66,7 @@ Explanation:
 
 
 
-## [6. Guess the output](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#6-guess-the-output)
+## 6. [Guess the output](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#6-guess-the-output)
 
 Answer: **f4, Boom, Sonic, Albert, f1, f3, f2**
 
@@ -79,13 +79,13 @@ Explanation:
 - f3() calls browser API, and is moved to callback queue
 - Another Promise for Albert is made, moved to job queue, gets prioritized, moved to execution stack, gets executed
 - Now there is nothing in execution stack, event loops finds f1() & f3() in callback queue
-- Both f1() and f3() have same timeout of 0 ms, but since queue is FIFO data strucutre, f1() being added first to the queue, gets moved to execution stack first
+- Both f1() and f3() have same timeout of 0 ms, but since queue is FIFO data structure, f1() being added first to the queue, gets moved to execution stack first
 - f1() gets executed, f3() follows f1() to execution stack and is executed
 - Now f2() completes its timeout and is moved for execution in execution stack
 
 
 
-## [7. Guess the output](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#7-guess-the-output)
+## 7. [Guess the output](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#7-guess-the-output)
 
 Answer: **f4, Sonic, Albert, f1, f3, f2, Boom**
 
@@ -98,7 +98,7 @@ Explanation:
 - f3() calls browser API, and is moved to callback queue
 - Another Promise for Albert is made, moved to job queue, gets prioritized, moved to execution stack, gets executed
 - Now there is nothing in execution stack, event loops finds Promise for Boom in job queue but is waiting for timeout to complete. Finds f1(), f2(), f3() in callback queue
-- Both f1() and f3() have same timeout of 0 ms while f2() waits for timeout completion, but since queue is FIFO data strucutre, f1() being added first to the queue, gets moved to execution stack first
+- Both f1() and f3() have same timeout of 0 ms while f2() waits for timeout completion, but since queue is FIFO data structure, f1() being added first to the queue, gets moved to execution stack first
 - f1() gets executed, f3() follows f1() to execution stack and is executed
 - Now event loop finds Promise for Boom in Job queue but is still waiting for timeout completion
 - Event loop finds f2() in callback queue which completes its timeout and is moved for execution in execution stack and is executed
