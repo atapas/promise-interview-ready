@@ -17,6 +17,7 @@ Any positive contributions are welcome. Please refer the  [Contribution Guide](h
 - Copy the content of this md file to a new file, `<YOUR_GITHUB_USERNAME>_answer.md`.
 - Provide your answers and explanations.
 - If you want me to look into your answers, explanations to validate, please feel free Create a PR with your md file change. Alternatively, you can DM the file to me on [Twitter](https://twitter.com/tapasadhikary).
+- You can verify your answers with the [answers.md file](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/answers.md).
 
 ## QUIZZES
 Let's get started.
