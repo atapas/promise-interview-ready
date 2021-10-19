@@ -43,9 +43,9 @@ Options are,
 - Let's do it!, f1, f1, f1, f1, in settimeout
 - Let's do it!, f1, , in settimeout, f1, f1, f1
 
-Answer: 
+Answer: **[Click here for Answer](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#1-whats-the-output-of-this-code)**
 
-Explanation:
+Explanation: **[Click here for Explanation](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#1-whats-the-output-of-this-code)**
 
 
 
@@ -90,9 +90,9 @@ Options are,
 - Let's do it!, f1, f2, f3, f4
 - Let's do it!, f1, f4, f2, f3
 
-Answer: 
+Answer: **[Click here for Answer](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#2-which-statements-are-true-select-multiple)**
 
-Explanation:
+Explanation: **[Click here for Explanation](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#2-which-statements-are-true-select-multiple)**
 
 
 ### 3. Which statement is `true`? Select Only one.
@@ -101,9 +101,9 @@ Explanation:
 - (_) The only job of Event Loop is to manage the Call Stack
 - (_) The StackOverflow exception is random.
 
-Answer: 
+Answer: **[Click here for Answer](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#3-which-statement-is-true-select-only-one)**
 
-Explanation:
+Explanation: **[Click here for Explanation](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#3-which-statement-is-true-select-only-one)**
 
 
 ### 4. Guess the output
@@ -133,9 +133,9 @@ Options are,
 - Cartoon, Tom, should it be right after Tom, before Jerry?, Jerry
 - Error
 
-Answer: 
+Answer: **[Click here for Answer](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#4-guess-the-output)**
 
-Explanation:
+Explanation: **[Click here for Explanation](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#4-guess-the-output)**
 
 
 ### 5. Guess the output
@@ -170,9 +170,9 @@ Options are,
 - Cartoon, Tom, Doggy, I am a Promise, right after tom and doggy! Really?, I am a Promise after Promise!, Jerry
 - None of the above.
 
-Answer: 
+Answer: **[Click here for Answer](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#5-guess-the-output)**
 
-Explanation:
+Explanation: **[Click here for Explanation](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#5-guess-the-output)**
 
 
 ### 6. Guess the output
@@ -209,9 +209,9 @@ Options are,
 - f4, Boom, Sonic, Albert, f3, f1, f2
 - f4, Boom, Sonic, Albert, f1, f2, f3
 
-Answer: 
+Answer: **[Click here for Answer](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#6-guess-the-output)**
 
-Explanation:
+Explanation: **[Click here for Explanation](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#6-guess-the-output)**
 
 
 ### 7. Guess the output
@@ -250,17 +250,7 @@ Options are,
 - f4, Boom, Sonic, Albert, f1, f2, f3
 - f4, Sonic, Albert, f1, f3, f2, Boom
 
-Answer: 
+Answer: **[Click here for Answer](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#7-guess-the-output)**
 
-Explanation:
-
-
-
-
-
-
-
-
-
-
+Explanation: **[Click here for Explanation](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#7-guess-the-output)**
 

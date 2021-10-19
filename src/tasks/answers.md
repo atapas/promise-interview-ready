@@ -1,6 +1,6 @@
 # Answers of the Quizzes
 
-## 1. [What's the output of this code?](https://github.com/atapas/promise-interview-ready/tree/create-answer-file/src/tasks#1-whats-the-output-of-this-code)
+## 1. [What's the output of this code?](https://github.com/atapas/promise-interview-ready/tree/create-answer-file/src/tasks/readme.md#1-whats-the-output-of-this-code)
 
 Answer: **Let's do it!, f1, f1, f1, f1, in settimeout**
 
