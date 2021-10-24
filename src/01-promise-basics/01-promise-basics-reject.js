@@ -14,7 +14,7 @@ let promise = new Promise(function (resolve, reject) {
 // but this time we are using the .catch
 const grandParentsCooking = () => {
   promise.catch(function (error) {
-    error(`OMG!!! ${error.message}`);
+    console.log(`OMG!!! ${error.message}`);
   });
 };
 
