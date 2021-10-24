@@ -13,7 +13,7 @@ const grandParentsCooking = () => {
   // The handler function to handle the resolved promise
   promise.then(function (result) {
     // Fetched the water. Now grandparents can start the cooking
-    log(`cooking rice with the ${result}`);
+    console.log(`cooking rice with the ${result}`);
   });
 };
 
