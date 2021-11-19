@@ -50,6 +50,8 @@ Answer: **[Click here for Answer](https://github.com/atapas/promise-interview-re
 - [ ] By default, JavaScript is synchronous
 - [ ] Only promises make JavaScript asynchronous
 - [ ] All function callbacks are asynchronous
+
+Answer: **[Click here for Answer](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#2-which-statements-are-true-select-multiple)**
  
 ### 3. What's the output of the code below?
 
@@ -86,9 +88,7 @@ Options are,
 - Let's do it!, f1, f2, f3, f4
 - Let's do it!, f1, f4, f2, f3
 
-Answer: **[Click here for Answer](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#2-which-statements-are-true-select-multiple)**
-
-Explanation: **[Click here for Explanation](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#2-which-statements-are-true-select-multiple)**
+Answer: **[Click here for Answer](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#3-whats-the-output-of-the-code-below)**
 
 
 ### 4. Which statement is `true`? Select Only one.
@@ -97,10 +97,7 @@ Explanation: **[Click here for Explanation](/atapas/promise-interview-ready/blob
 - (_) The only job of Event Loop is to manage the Call Stack
 - (_) The StackOverflow exception is random.
 
-Answer: **[Click here for Answer](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#3-which-statement-is-true-select-only-one)**
-
-Explanation: **[Click here for Explanation](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#3-which-statement-is-true-select-only-one)**
-
+Answer: **[Click here for Answer](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#4-which-statement-is-true-select-only-one)**
 
 ### 5. Guess the output
 
@@ -129,10 +126,7 @@ Options are,
 - Cartoon, Tom, should it be right after Tom, before Jerry?, Jerry
 - Error
 
-Answer: **[Click here for Answer](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#4-guess-the-output)**
-
-Explanation: **[Click here for Explanation](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#4-guess-the-output)**
-
+Answer: **[Click here for Answer](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#5-guess-the-output)**
 
 ### 6. Guess the output
 
@@ -166,9 +160,7 @@ Options are,
 - Cartoon, Tom, Doggy, I am a Promise, right after tom and doggy! Really?, I am a Promise after Promise!, Jerry
 - None of the above.
 
-Answer: **[Click here for Answer](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#5-guess-the-output)**
-
-Explanation: **[Click here for Explanation](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#5-guess-the-output)**
+Answer: **[Click here for Answer](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#6-guess-the-output)**
 
 
 ### 7. Guess the output
@@ -205,9 +197,7 @@ Options are,
 - f4, Boom, Sonic, Albert, f3, f1, f2
 - f4, Boom, Sonic, Albert, f1, f2, f3
 
-Answer: **[Click here for Answer](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#6-guess-the-output)**
-
-Explanation: **[Click here for Explanation](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#6-guess-the-output)**
+Answer: **[Click here for Answer](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#7-guess-the-output)**
 
 
 ### 8. Guess the output
@@ -246,7 +236,5 @@ Options are,
 - f4, Boom, Sonic, Albert, f1, f2, f3
 - f4, Sonic, Albert, f1, f3, f2, Boom
 
-Answer: **[Click here for Answer](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#7-guess-the-output)**
-
-Explanation: **[Click here for Explanation](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#7-guess-the-output)**
+Answer: **[Click here for Answer](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#8-guess-the-output)**
 
