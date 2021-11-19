@@ -1,6 +1,6 @@
 # Answers of the Quizzes
 
-## 1. [What's the output of this code?](https://github.com/atapas/promise-interview-ready/tree/create-answer-file/src/tasks/readme.md#1-whats-the-output-of-this-code)
+## 1. [What's the output of this code?](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#1-whats-the-output-of-this-code)
 
 Answer: **Let's do it!, f1, f1, f1, f1, in settimeout**
 
@@ -12,6 +12,14 @@ Explanation:
 
 
 ## 2. [Which statements are `true`? Select multiple.](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#2-which-statements-are-true-select-multiple)
+
+Answer: 
+- [X] JavaScript is single-threaded
+- [X] By default, JavaScript is synchronous
+- [ ] Only promises make JavaScript asynchronous
+- [ ] All function callbacks are asynchronous
+
+## 3. [What's the output of the code below?](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#3-whats-the-output-of-the-code-below)
 
 Answer: **Let's do it!, f4, f1, f3, f2**
 
@@ -27,7 +35,7 @@ Explanation:
 
 
 
-## 3. [Which statement is `true`? Select Only one.](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#3-which-statement-is-true-select-only-one)
+## 4. [Which statement is `true`? Select Only one.](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#4-which-statement-is-true-select-only-one)
 
 Answer: **The job queue gets higher priority than the callback queue.**
 
@@ -35,7 +43,7 @@ Explanation: The Job Queue also known as micro task and has higher priority of e
 
 
 
-## 4. [Guess the output](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#4-guess-the-output)
+## 5. [Guess the output](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#5-guess-the-output)
 
 Answer: **Cartoon, Jerry, should it be right after Tom, before Jerry?, tom**
 
@@ -49,7 +57,7 @@ Explanation:
 
 
 
-## 5. [Guess the output](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#5-guess-the-output)
+## 6. [Guess the output](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#6-guess-the-output)
 
 Answer: **Cartoon, Jerry, I am a Promise, right after tom and doggy! Really?, I am a Promise after Promise!, Doggy, Tom**
 
@@ -66,7 +74,7 @@ Explanation:
 
 
 
-## 6. [Guess the output](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#6-guess-the-output)
+## 7. [Guess the output](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#7-guess-the-output)
 
 Answer: **f4, Boom, Sonic, Albert, f1, f3, f2**
 
@@ -85,7 +93,7 @@ Explanation:
 
 
 
-## 7. [Guess the output](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#7-guess-the-output)
+## 8. [Guess the output](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#8-guess-the-output)
 
 Answer: **f4, Sonic, Albert, f1, f3, f2, Boom**
 
