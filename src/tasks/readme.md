@@ -43,11 +43,7 @@ Options are,
 - Let's do it!, f1, f1, f1, f1, in settimeout
 - Let's do it!, f1, , in settimeout, f1, f1, f1
 
-Answer: **[Click here for Answer](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#1-whats-the-output-of-this-code)**
-
-Explanation: **[Click here for Explanation](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#1-whats-the-output-of-this-code)**
-
-
+Answer: **[Click here for Answer](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#1-whats-the-output-of-this-code)**
 
 ### 2. Which statements are `true`? Select multiple.
 - [ ] JavaScript is single-threaded
@@ -55,7 +51,7 @@ Explanation: **[Click here for Explanation](/atapas/promise-interview-ready/blob
 - [ ] Only promises make JavaScript asynchronous
 - [ ] All function callbacks are asynchronous
  
-### What's the output of the code below?
+### 3. What's the output of the code below?
 
 ```js
 function f1() {
@@ -95,7 +91,7 @@ Answer: **[Click here for Answer](/atapas/promise-interview-ready/blob/main/src/
 Explanation: **[Click here for Explanation](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#2-which-statements-are-true-select-multiple)**
 
 
-### 3. Which statement is `true`? Select Only one.
+### 4. Which statement is `true`? Select Only one.
 - (_) JavaScript Function Execution Stack(Call Stack) never gets empty.
 - (_) The job queue gets higher priority than the callback queue.
 - (_) The only job of Event Loop is to manage the Call Stack
@@ -106,7 +102,7 @@ Answer: **[Click here for Answer](/atapas/promise-interview-ready/blob/main/src/
 Explanation: **[Click here for Explanation](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#3-which-statement-is-true-select-only-one)**
 
 
-### 4. Guess the output
+### 5. Guess the output
 
 ```js
 const tom = () => console.log('Tom');
@@ -138,7 +134,7 @@ Answer: **[Click here for Answer](/atapas/promise-interview-ready/blob/main/src/
 Explanation: **[Click here for Explanation](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#4-guess-the-output)**
 
 
-### 5. Guess the output
+### 6. Guess the output
 
 ```js
 const tom = () => console.log('Tom');
@@ -175,7 +171,7 @@ Answer: **[Click here for Answer](/atapas/promise-interview-ready/blob/main/src/
 Explanation: **[Click here for Explanation](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#5-guess-the-output)**
 
 
-### 6. Guess the output
+### 7. Guess the output
 
 ```js
 const f1 = () => console.log('f1');
@@ -214,7 +210,7 @@ Answer: **[Click here for Answer](/atapas/promise-interview-ready/blob/main/src/
 Explanation: **[Click here for Explanation](/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#6-guess-the-output)**
 
 
-### 7. Guess the output
+### 8. Guess the output
 
 ```js
 const f1 = () => console.log('f1');
