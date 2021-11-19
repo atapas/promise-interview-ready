@@ -26,5 +26,5 @@ Please join me to learn JavaScript Promise in a new way. This repository contain
 - [6 Common mistakes in using JavaScript Promises](https://blog.greenroots.info/common-mistakes-in-using-javascript-promises)
 
 ## Contribute
-Please contribute to this project by making it better. You can improve the doc, add examples. The majority of the contributions we are looking for is in the areas of more QUIZZES related to JavaScript Async Programming and Promises. Here is the current state of it: [QIZZES](https://github.com/atapas/promise-interview-ready/tree/main/src/tasks/readme.md)
+Please contribute to this project by making it better. You can improve the doc, add examples. The majority of the contributions we are looking for is in the areas of more QUIZZES related to JavaScript Async Programming and Promises. Here is the current state of it: [QUIZZES](https://github.com/atapas/promise-interview-ready/tree/main/src/tasks/readme.md)
 
