@@ -43,7 +43,7 @@ function query(endpoint, callback) {
 const createOrder = (payload) => {
   setTimeout(function(){
     const {type, name, beverage} = payload;
-    callback(`The ${type} ${name} pizza order with ${beverage} has been placed successfully.`);
+    console.log(`The ${type} ${name} pizza order with ${beverage} has been placed successfully.`);
   }, CREATE_ORDER_DELAY);
 }
 
