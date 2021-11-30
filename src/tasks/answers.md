@@ -95,20 +95,16 @@ Explanation:
 
 ## 8. [Guess the output](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/readme.md#8-guess-the-output)
 
-Answer: **f4, Sonic, Albert, f1, f3, f2, Boom**
+Answer: **f4, Sonic, Albert, f1, f2, f3**
 
 Explanation:
 - f4() is moved to execution stack & executed initially
 - f1() calls browser API, so it is moved to callback queue
-- Promise for Boom is made and is moved to job queue. Since, it is calling browser API timeout, it is not executed immediately and waits until timeout of 5000 ms
-- f2() calls browser API, so it is moved to callback queue
 - Promise for Sonic is made and moved to job queue. And as there is nothing in execution stack & it doesn't make any browser API calls, promise is moved to execution stack and executed
 - f3() calls browser API, and is moved to callback queue
 - Another Promise for Albert is made, moved to job queue, gets prioritized, moved to execution stack, gets executed
-- Now there is nothing in execution stack, event loops finds Promise for Boom in job queue but is waiting for timeout to complete. Finds f1(), f2(), f3() in callback queue
-- Both f1() and f3() have same timeout of 0 ms while f2() waits for timeout completion, but since queue is FIFO data structure, f1() being added first to the queue, gets moved to execution stack first
-- f1() gets executed, f3() follows f1() to execution stack and is executed
-- Now event loop finds Promise for Boom in Job queue but is still waiting for timeout completion
-- Event loop finds f2() in callback queue which completes its timeout and is moved for execution in execution stack and is executed
-- Since the execution stack is empty, event loop finds Promise for Boom in job queue and the Promise completes is timeout and is moved to Execution stack is executed
+- Now there is nothing in execution stack, event loops finds f1(), and f3() in callback queue
+- Both f1() and f3() have same timeout of 0 ms. Since queue is FIFO data structure, f1() being added first to the queue, gets moved to execution stack first
+- f1() gets executed and execute f2() as well, f3() follows f1() and d2() to execution stack and is executed
+- Since the execution stack is empty, there is nothing left to execute.
 
