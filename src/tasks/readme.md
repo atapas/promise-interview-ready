@@ -203,7 +203,10 @@ Answer: **[Click here for Answer](https://github.com/atapas/promise-interview-re
 ### 8. Guess the output
 
 ```js
-const f1 = () => console.log('f1');
+const f1 = () => {
+    console.log('f1');
+    f2();
+}
 const f2 = () => console.log('f2');
 const f3 = () => console.log('f3');
 const f4 = () => console.log('f4');
@@ -211,14 +214,6 @@ const f4 = () => console.log('f4');
 f4();
 
 setTimeout(f1, 0);
-
-new Promise((resolve, reject) => {
-  setTimeout(function() {
-      resolve('Boom');
-  }, 5000);
-}).then(result => console.log(result));
-
-setTimeout(f2, 2000);
 
 new Promise((resolve, reject) => {
     resolve('Sonic');
@@ -231,10 +226,10 @@ new Promise((resolve, reject) => {
 }).then(result => console.log(result));
 ```
 Options are,
-- f4, f1, Boom, f2, Sonic, f3, Albert
-- f4, Boom, Sonic, Albert, f3, f1, f2
-- f4, Boom, Sonic, Albert, f1, f2, f3
-- f4, Sonic, Albert, f1, f3, f2, Boom
+- f4, f1, f2, Sonic, f3, Albert
+- f4, Sonic, Albert, f3, f1, f2
+- f4, Sonic, Albert, f1, f2, f3
+- f4, Albert, Sonic, f1, f2, f3
 
 Answer: **[Click here for Answer](https://github.com/atapas/promise-interview-ready/blob/main/src/tasks/answers.md#8-guess-the-output)**
 
